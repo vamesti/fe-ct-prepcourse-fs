@@ -4,6 +4,9 @@ function esPotenciaDeDos(numero) {
   // Devuelve true si lo es, sino devuelve false.
   // PISTA: Utiliza un bucle while.
   // Tu código:
+
+  return Math.log2(numero) % 1 === 0;
+
 }
 
 module.exports = esPotenciaDeDos;

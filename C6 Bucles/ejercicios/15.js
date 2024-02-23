@@ -14,7 +14,8 @@ function obtenerDiaSemana(numero) {
     case 5: return "Viernes"
     case 6: return "Sabado"
     case 7: return "Domingo"
-
+    default : return "No es un dia de la semana"
+    break
   }
 
 }
